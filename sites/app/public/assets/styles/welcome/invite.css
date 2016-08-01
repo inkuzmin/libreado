@@ -1,0 +1,52 @@
+.invite {
+  position: relative;
+  top: -50px;
+  margin: 5px auto 0 auto;
+  font-family: "pragmatica-web", sans-serif;
+  font-weight: 200;
+/*font-size 1.2em*/
+  color: #eaeaea;
+}
+.invite h2 {
+  margin-bottom: 120px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 200;
+}
+.invite .invite-form {
+  width: 80%;
+  margin: auto;
+}
+.invite .invite-form input[type="text"] {
+  display: block;
+  width: 99%;
+  margin: 6px auto;
+  border: none;
+  border-bottom: 1px solid #eaeaea;
+  outline: none;
+  background-color: transparent;
+  color: #eaeaea;
+  font-size: 1.2em;
+}
+.invite .invite-form input[type="submit"] {
+  float: right;
+  position: relative;
+  top: -37px;
+  width: 25px;
+  height: 25px;
+  border: none;
+  outline: none;
+  background-image: url("../../images/welcome/arrow.svg");
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+.invite .invite-instructions {
+  margin-top: 50px;
+  font-size: 1.2em;
+  text-align: center;
+/*text-align center*/
+}
+.invite .invite-back {
+  margin-top: 50px;
+  text-align: center;
+}

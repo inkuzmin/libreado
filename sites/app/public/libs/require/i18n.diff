@@ -1,0 +1,6 @@
+36a37
+> // Modified by inkuzmin to support the reflection of modular structure
+46c47
+<     var nlsRegExp = /(^.*(^|\/)nls(\/|$))([^\/]*)\/?([^\/]*)/;
+---
+>     var nlsRegExp = /(^.*(^|\/)nls(\/|$).*?\/)([^\/]*)\/?([^\/]*)/;

@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "utility.js",
+  "sourceRoot": "",
+  "sources": [
+    "utility.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA;AAAA"
+}

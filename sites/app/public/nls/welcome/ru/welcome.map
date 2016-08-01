@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "welcome.js",
+  "sourceRoot": "",
+  "sources": [
+    "welcome.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,EAAA,MAAA,CACE;AAAA,IAAA,UAAA,EAAY,SAAZ;GADF,CAAA,CAAA;AAAA"
+}

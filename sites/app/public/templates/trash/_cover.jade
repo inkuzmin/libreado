@@ -1,0 +1,45 @@
+//
+   Created by inkuzmin on 7/9/14.
+
+doctype html
+html(lang="en")
+    head
+        title Libreado Cloud Reader
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="/assets/styles/normalize.css")
+        link(rel="stylesheet", href="/assets/styles/cover.css")
+        script(src="/libs/modernizr.js")
+        script(src="/libs/jquery/jquery.js")
+        script(src="/libs/jquery/blur.js")
+        script(src="/libs/jquery/parralax.js")
+        script(src="//use.typekit.net/uno0hgu.js")
+        script(src="prescript.js")
+    body
+        #content
+            .welcome
+                .welcome-content
+                    .welcome-logotype
+                        .welcome-logotype-logo
+                            .welcome-logotype-type
+                    .welcome-login
+                        input.login(type="text",placeholder="электронная почта")
+                        input.password(type="password",placeholder="пароль")
+                        input.submit(type="submit",value="")
+                        .additional
+                            b.remember
+                                label
+                                    input(type="checkbox",checked="checked")
+                                    b &nbsp;Запомнить
+                            b.separator &nbsp;·&nbsp;
+                            a(href="#").forgot.
+                                Забыли пароль? {{test}}
+                    .register
+                        a(href="#") Have not an account yet?
+                .welcome-background
+            .information
+                h1 Почему инвайты?
+                b Всё дело в том, что нашей основной задачей является.
+
+
+
+    script(src="login.js")

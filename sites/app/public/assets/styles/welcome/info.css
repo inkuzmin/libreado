@@ -1,0 +1,10 @@
+.info {
+  font-family: "pragmatica-web", sans-serif;
+  font-weight: 200;
+  font-size: 1.2em;
+  color: #eaeaea;
+}
+.info h1 {
+  color: #fff;
+  font-size: 2em;
+}

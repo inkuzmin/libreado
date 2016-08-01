@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "pubsub.js",
+  "sourceRoot": "",
+  "sources": [
+    "pubsub.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,EAAA,MAAA,CAAO,CACL,QADK,EAEL,UAFK,CAAP,EAGG,SAAC,CAAD,EAAI,QAAJ,GAAA;WACD,CAAC,CAAC,MAAF,CAAS,EAAT,EAAa,QAAQ,CAAC,MAAtB,EADC;EAAA,CAHH,CAAA,CAAA;AAAA"
+}

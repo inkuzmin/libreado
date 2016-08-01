@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "invite.js",
+  "sourceRoot": "",
+  "sources": [
+    "invite.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,EAAA,MAAA,CACE;AAAA,IAAA,QAAA,EAAU,QAAV;GADF,CAAA,CAAA;AAAA"
+}

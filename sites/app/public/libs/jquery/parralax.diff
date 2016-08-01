@@ -1,0 +1,13 @@
+7a8,10
+> 
+> // Patched by inkuzmin to add option for force ignore of css3 features
+> 
+190a194,201
+>     if (this.css3 === false) {
+>       Plugin.prototype.transform2DSupport = Plugin.prototype.transform3DSupport = false;
+>     }
+>     else {
+>       Plugin.prototype.transform2DSupport = Plugin.prototype.transformSupport('2D');
+>       Plugin.prototype.transform3DSupport = Plugin.prototype.transformSupport('3D');
+>     }
+> 

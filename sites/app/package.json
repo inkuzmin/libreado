@@ -1,0 +1,28 @@
+{
+    "name": "libreado-app",
+    "description": "Streaming reading service",
+    "author": "Ivan Kuzmin",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "express": "4.x",
+        "redis": "*",
+        "opds-parser": "*",
+        "jade": "*",
+        "vhost": "*",
+        "express-force-ssl": "*",
+        "express-force-domain": "*",
+        "connect-redirecthost": "*",
+        "geoip-native": "*",
+        "credential": "*",
+        "mongoose": "*",
+        "nodemailer": "*"
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "chai": "*"
+    },
+    "scripts": {
+        "test": "make test"
+    }
+}

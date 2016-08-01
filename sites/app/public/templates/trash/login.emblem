@@ -1,0 +1,23 @@
+.welcome
+    .welcome-content
+        .welcome-logotype
+            .welcome-logotype-logo
+                .welcome-logotype-type
+        .welcome-login
+            input.login(type="text",placeholder="электронная почта")
+            input.password(type="password",placeholder="пароль")
+            input.submit(type="submit",value="")
+            .additional
+                b.remember
+                    label
+                        input(type="checkbox",checked="checked")
+                        b &nbsp;Запомнить
+                b.separator &nbsp;·&nbsp;
+                a(href="#").forgot.
+                    Забыли пароль? {{test}}
+        .register
+            a(href="#") Have not an account yet?
+    .welcome-background
+.information
+    h1 Почему   инвайты?
+    b Всё дело в том, что нашей основной задачей является.

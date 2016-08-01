@@ -1,0 +1,24 @@
+7,11d6
+< /* Modified by inkuzmin
+<  * to add fluid option for responsive layouts that work just as
+<  *   draggable but w/o dragging
+<  */
+< 
+34,36c29
+< 	         debug: false,
+<              fluid: false,
+<              customCSS: false
+---
+> 	         debug: false
+103d95
+< 
+114,122d105
+<                 if(options.fluid){
+<                     $glue.css({
+<          		        'background-attachment': 'fixed',
+<          		        'background-position':'0 0'
+<          		    });
+<                 }
+<                 if(options.customCSS){
+<                     $glue.css(options.customCSS);
+<                 }

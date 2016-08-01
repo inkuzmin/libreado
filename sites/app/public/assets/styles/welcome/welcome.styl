@@ -1,0 +1,102 @@
+user-select(x)
+  -webkit-touch-callout x
+  -webkit-user-select x
+  -khtml-user-select x
+  -moz-user-select x
+  -ms-user-select x
+  user-select x
+
+box-sizing(x)
+  -moz-box-sizing x
+  -webkit-box-sizing x
+  box-sizing x
+
+/* ---------------------------------------------------------------- */
+/* iOS hacks */
+/* ---------------------------------------------------------------- */
+input[type="text"]
+  -webkit-appearance: none
+  border-radius: 0
+  box-sizing border-box
+
+input[type="password"]
+  -webkit-appearance: none
+  border-radius: 0
+  box-sizing border-box
+
+/* ---------------------------------------------------------------- */
+/*                           Main content                           */
+/* ---------------------------------------------------------------- */
+
+#content
+  position absolute
+  z-index -100
+  width 100%
+  height 100%
+  overflow hidden
+  color #eaeaea
+  font-size 100%
+
+
+#content a
+  color #dce9ff
+  text-decoration none
+
+#content a:hover
+  text-decoration underline
+
+#content b
+  font-weight 200
+
+#content, .welcome-background
+    @media screen and (max-device-width: 320px)
+      background black url(../images/welcome/cover-small.jpg) no-repeat
+
+    @media screen and (max-device-width: 768px) and (max-device-width: 1024px)
+      background black url(../../images/welcome/cover.jpg) no-repeat
+
+    @media screen and (min-device-width: 1200px)
+      background black url(../../images/welcome/cover-large.jpg) no-repeat
+      @media screen and (min-width: 320px) /* iPhone portrait */
+        background-size 1200px auto
+      @media screen and (min-width: 480px) /* iPhone landscape */
+        background-size 1200px auto
+      @media screen and (min-width: 600px) /* Kindle */
+        background-size 1200px auto
+      @media screen and (min-width: 768px) /* iPad portrait */
+        background-size 1200px auto
+      @media screen and (min-width: 1024px) /* netbook, iPad landscape */
+        background-size 1200px auto
+      @media screen and (min-width: 1200px) /* desktop, laptop */
+        background-size 100% auto
+
+.welcome-panel
+  position relative
+  float left
+  width (320*100/1280)%
+  min-width 300px
+  margin 100px 0 0 (290*100/1280)%
+  font-family "pragmatica-web", sans-serif
+  font-weight 200
+
+  .welcome-content
+    /* Inherited */
+    overflow hidden
+
+  .welcome-background
+    position absolute
+    top 0
+    z-index -99
+    width 100%
+    height 100%
+    border 1px solid white
+    border-radius 25px
+    background-color white
+    opacity 0.651
+
+.welcome-information
+  float left
+  position relative
+  width (380*100/1280)%
+  margin 100px 0 0 (100*100/1280)%
+  height 100px
